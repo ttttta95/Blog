@@ -1,21 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './component/Navbar';
-import ETFPage from './pages/About';
-import InsightPage from './pages/Insight';
-import LoungePage from './pages/Lounge';
-import CompanyPage from './pages/Company';
+import Navbar from './component/Navbar';
+import About from './page/About';
+import Insight from './page/Insight';
+import Lounge from './page/Lounge';
+import Company from './page/Company';
 
 export default function App() {
     return (
         <Router>
-            <NavBar />
+            <Navbar />
             <Routes>
-                <Route to='About' element={<About />}></Route>
-                <Route to='Insight' element={<Insight />}></Route>
-                <Route to='Lounge' element={<Lounge />}></Route>
-                <Route to='Lounge' element={<Company />}></Route>
-                <Route></Route>
+                <Route path="/about" element={<About />} />
+                <Route path="/insight" element={<Insight />} />
+                <Route path="/lounge" element={<Lounge />} />
+                <Route path="/company" element={<Company />} />
             </Routes>
         </Router>
     );
