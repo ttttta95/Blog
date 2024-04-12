@@ -10,9 +10,9 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path='/write' element={<Write/>}></Route>
-            <Route path='/posts' element={<Posts/>}></Route>
-            <Route path='/profile' element={<Profile/>}></Route>
+            <Route path='/Write' element={<Write/>}></Route>
+            <Route path='/Posts' element={<Posts/>}></Route>
+            <Route path='/Profile' element={<Profile/>}></Route>
           </Routes>
         </Router>
     );
