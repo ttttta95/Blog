@@ -11,7 +11,6 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/Write" element={<Write />} />
             <Route path="/Posts" element={<Posts />} />
             <Route path="/Profile" element={<Profile />} />
