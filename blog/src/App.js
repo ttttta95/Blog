@@ -11,10 +11,10 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
+          <Route path="/Home" element={<Home />} />
             <Route path="/Write" element={<Write />} />
             <Route path="/Posts" element={<Posts />} />
             <Route path="/Profile" element={<Profile />} />
-            <Route path="/Home" element={<Home />} />
           </Routes>
         </Router>
     );
