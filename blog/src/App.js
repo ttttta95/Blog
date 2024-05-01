@@ -4,7 +4,7 @@ import Header from './component/Header';
 import Write from './page/Write';
 import Posts from './page/Posts';
 import Profile from './page/Profile';
-import Home from './page/Home'; // Home 컴포넌트 import
+import Home from './page/Home';
 
 export default function App() {
     return (
