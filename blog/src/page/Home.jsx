@@ -3,8 +3,8 @@ import Info from '../component/Info';
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Info />
-        </>
+        </div>
     );
 }
