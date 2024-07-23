@@ -4,15 +4,18 @@ import Header from './component/Header';
 import Write from './page/Write';
 import Posts from './page/Posts';
 import Profile from './page/Profile';
+import Home from './page/Home'; // Home 컴포넌트 import
 
 export default function App() {
     return (
         <Router>
           <Header />
           <Routes>
-            <Route path='/Write' element={<Write/>}></Route>
-            <Route path='/Posts' element={<Posts/>}></Route>
-            <Route path='/Profile' element={<Profile/>}></Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/Write" element={<Write />} />
+            <Route path="/Posts" element={<Posts />} />
+            <Route path="/Profile" element={<Profile />} />
+            <Route path="/Home" element={<Home />} />
           </Routes>
         </Router>
     );
