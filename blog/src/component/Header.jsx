@@ -5,7 +5,7 @@ import './Header.css';
 export default function Header() {
     return (
         <header className="header">
-            <Link to="/Home" className='header__logo'>
+            <Link to="/" className='header__logo'>
                 <h3>React Blog</h3>
             </Link>
             <nav className="header__menu">
