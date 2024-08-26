@@ -8,7 +8,7 @@ export default function Header() {
                 <h3>React Todos</h3>
             </Link>
             <nav className="header__menu">
-                <Link to="/Write" className="header__link">글쓰기</Link>
+                <Link to="/Write" className="header__link">Todo 생성</Link>
             </nav>
         </header>
     );
