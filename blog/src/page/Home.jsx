@@ -3,7 +3,7 @@ import React from 'react';
 export default function Home() {
     return (
         <div>
-            <h2>홈</h2>
+            <p>📍리액트 연습용 사이트📍</p>
         </div>
-    )
+    );
 }
