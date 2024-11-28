@@ -10,7 +10,7 @@
 }
 
 .header__logo {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: black;
     margin: 0;
     text-decoration: none;
@@ -25,7 +25,7 @@
 
 .header__link {
     text-decoration: none;
-    font-size: 0.9rem ;
+    font-size: 0.7rem ;
     color: #a2a0a0ad;
 }
 
@@ -34,6 +34,12 @@
 }
 
 .info__message {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 230px;
+}
+
+.info__form {
     font-size: 30px;
     text-align: center;
     margin-top: 230px;
