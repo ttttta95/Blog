@@ -26,7 +26,7 @@
 .header__link {
     text-decoration: none;
     font-size: 0.9rem ;
-    color: black;
+    color: #a2a0a0ad;
 }
 
 .header__link:hover {
@@ -36,5 +36,5 @@
 .info__message {
     font-size: 30px;
     text-align: center;
-    margin-top: 225px;
+    margin-top: 230px;
 }
